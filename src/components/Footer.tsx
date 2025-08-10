@@ -78,6 +78,7 @@ const Footer = () => {
               <a
                 href="#"
                 className="text-gray-400 hover:text-primary transition-colors"
+                aria-label="Instagram"
               >
                 <svg
                   className="w-6 h-6"
@@ -96,6 +97,7 @@ const Footer = () => {
               <a
                 href="#"
                 className="text-gray-400 hover:text-primary transition-colors"
+                aria-label="X (Twitter)"
               >
                 <svg
                   className="w-6 h-6"
@@ -110,6 +112,7 @@ const Footer = () => {
               <a
                 href="#"
                 className="text-gray-400 hover:text-primary transition-colors"
+                aria-label="LinkedIn"
               >
                 <svg
                   className="w-6 h-6"

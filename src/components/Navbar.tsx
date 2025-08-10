@@ -63,7 +63,11 @@ const Navbar = () => {
               Schedule Consultation
             </Link>
           </div>
-          <button className="md:hidden p-2" onClick={handleMenuToggle}>
+          <button
+            className="md:hidden p-2"
+            onClick={handleMenuToggle}
+            aria-label="Toggle Menu"
+          >
             <svg
               className="w-6 h-6"
               fill="none"
