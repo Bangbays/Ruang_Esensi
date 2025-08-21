@@ -11,7 +11,7 @@ const projects = [
   },
   {
     imageSrc:
-      "https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg", // <-- GANTI DENGAN URL BARU INI
+      "https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg",
     title: "Open Living Space",
     details: "680 sq ft • Brooklyn, NY",
     quote: '"Our home finally feels like a sanctuary." - David & Lisa K.',
@@ -39,7 +39,7 @@ const projects = [
   },
   {
     imageSrc:
-      "https://cdn.pixabay.com/photo/2016/11/30/08/46/living-room-1872192_1280.jpg", // <-- GANTI INI
+      "https://cdn.pixabay.com/photo/2016/11/30/08/46/living-room-1872192_1280.jpg",
     title: "Family Gathering Space",
     details: "520 sq ft • Staten Island, NY",
     quote:
