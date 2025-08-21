@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "cdn.pixabay.com", // Ini satu-satunya domain Pixabay yang kita butuhkan
+        hostname: "cdn.pixabay.com",
       },
     ],
   },
