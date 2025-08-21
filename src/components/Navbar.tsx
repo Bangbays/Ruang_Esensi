@@ -84,7 +84,6 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div
           id="mobile-menu"

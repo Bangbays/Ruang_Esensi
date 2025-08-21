@@ -7,10 +7,9 @@ const UrgencyCTA = () => {
   const [slots, setSlots] = useState(7);
 
   useEffect(() => {
-    // Simulate slots being taken over time
     const interval = setInterval(() => {
       setSlots((prevSlots) => (prevSlots > 3 ? prevSlots - 1 : prevSlots));
-    }, 30000); // Decrease every 30 seconds
+    }, 30000);
     return () => clearInterval(interval);
   }, []);
 

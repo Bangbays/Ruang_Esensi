@@ -11,7 +11,6 @@ const ContactForm = () => {
     setIsSubmitting(true);
     setSubmitMessage("");
 
-    // Simulate a network request
     await new Promise((resolve) => setTimeout(resolve, 1500));
 
     setIsSubmitting(false);
@@ -19,7 +18,6 @@ const ContactForm = () => {
       "Thank you! Your consultation has been scheduled. We'll contact you within 24 hours."
     );
 
-    // Reset the form after a delay
     setTimeout(() => {
       (event.target as HTMLFormElement).reset();
       setSubmitMessage("");

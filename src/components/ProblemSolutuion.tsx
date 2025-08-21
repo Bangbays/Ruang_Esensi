@@ -16,7 +16,6 @@ const ProblemSolution = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Before: Cluttered Space */}
           <div className="relative group">
             <div className="relative overflow-hidden rounded-lg">
               <Image
@@ -79,11 +78,10 @@ const ProblemSolution = () => {
             </div>
           </div>
 
-          {/* After: Japandi Space */}
           <div className="relative group">
             <div className="relative overflow-hidden rounded-lg">
               <Image
-                src="https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg" // <-- GANTI DENGAN URL BARU INI
+                src="https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg"
                 alt="Serene Japandi interior transformation"
                 width={1260}
                 height={840}

@@ -6,7 +6,7 @@ const testimonials = [
     name: "Sarah Mitchell",
     title: "Manhattan Homeowner",
     imageSrc:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop", // <-- GANTI DENGAN URL BARU INI
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop",
     quote:
       '"The transformation of our bedroom was incredible. I never realized how much visual clutter was affecting my sleep quality. Now I wake up feeling refreshed and peaceful every morning."',
   },

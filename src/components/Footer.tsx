@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="bg-text-primary text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
-          {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center mb-6">
               <svg
@@ -31,7 +30,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="font-inter font-medium text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2 text-gray-300">
@@ -70,11 +68,9 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Follow Us Section -- UPDATED */}
           <div>
             <h4 className="font-inter font-medium text-lg mb-4">Follow Us</h4>
             <div className="flex space-x-4">
-              {/* Instagram Icon */}
               <a
                 href="#"
                 className="text-gray-400 hover:text-primary transition-colors"
@@ -93,7 +89,6 @@ const Footer = () => {
                   />
                 </svg>
               </a>
-              {/* X (Twitter) Icon */}
               <a
                 href="#"
                 className="text-gray-400 hover:text-primary transition-colors"
@@ -108,7 +103,6 @@ const Footer = () => {
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
               </a>
-              {/* LinkedIn Icon */}
               <a
                 href="#"
                 className="text-gray-400 hover:text-primary transition-colors"

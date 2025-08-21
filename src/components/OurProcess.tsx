@@ -15,7 +15,6 @@ const OurProcess = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {/* Step 1: Consultation */}
           <div className="text-center group">
             <div className="relative mb-8">
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -46,7 +45,6 @@ const OurProcess = () => {
             </p>
           </div>
 
-          {/* Step 2: Design */}
           <div className="text-center group">
             <div className="relative mb-8">
               <div className="w-20 h-20 bg-secondary-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
@@ -77,7 +75,6 @@ const OurProcess = () => {
             </p>
           </div>
 
-          {/* Step 3: Execution */}
           <div className="text-center group">
             <div className="relative mb-8">
               <div className="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
