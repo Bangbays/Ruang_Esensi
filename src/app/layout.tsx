@@ -1,6 +1,5 @@
-// src/app/layout.tsx
 import type { Metadata } from "next";
-import { Inter, Source_Sans_3, Crimson_Text } from "next/font/google"; // Updated import
+import { Inter, Source_Sans_3, Crimson_Text } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -10,7 +9,6 @@ const inter = Inter({
 });
 
 const sourceSansPro = Source_Sans_3({
-  // Updated name to match `next/font`
   subsets: ["latin"],
   variable: "--font-source-sans-pro",
   weight: ["300", "400"],
